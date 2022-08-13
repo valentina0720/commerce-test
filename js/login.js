@@ -16,7 +16,7 @@ function validar() {
         pAlert.innerHTML = ("Ingresa tu contraseña");
     }
     else {document.formulario.submit();
-        window.location.replace("index.html" )}
+        window.location.replace("pincipal.html" )}
 }
 
 enter.addEventListener("click", validar);
